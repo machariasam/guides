@@ -1,4 +1,28 @@
-site_name: My Docs
+site_name: LocalAdmin
+site_url: https://localadmin.github.io/
+site_author: machariasam
+repo_name: machariasam/localadmin
+repo_url: https://github.com/machariasam/localadmin
+theme:
+  name: terminal
+  palette: dark
+  features:
+    - footer.prev_next
+    - navigation.side.indexes
+    - navigation.side.toc.hide
+   # - navigation.top.cursor_animation.hide
+    - navigation.top.search_button.hide
+   # - revision.date
+   # - revision.history
+    - style.links.underline.hide
+  plugins:
+    - search
+    - macro
 nav:
   - Home: index.md
-  - About: about.md
+  - Contact: 'contact.md'
+  - About: 
+    - Index: 'about.md'
+    - Linux: 'linux.md'
+    - Docker: 'docker.md'
+    - Openstack: 'openstack.md'
